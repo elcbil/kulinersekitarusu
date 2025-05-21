@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';  // Menggunakan Link dari React Router 
 
 function Review() {
   return (
-   <div className="bg-pink">feedback</div>
+   <div className="bg-pink">review</div>
   );
 }
 
