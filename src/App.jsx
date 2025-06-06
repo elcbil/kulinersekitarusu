@@ -4,7 +4,8 @@ import Navbar from './components/Navbar';  // Mengimpor Navbar
 import Footer from './components/Footer';  // Mengimpor Footer
 import Home from './pages/Home';  // Mengimpor halaman Home
 import Explore from './pages/Explore';  // Mengimpor halaman Explore
-import Feedback from './pages/Review';  // Mengimpor halaman Feedback
+import Review from './pages/Review';  // Mengimpor halaman Review
+import Menu from './pages/Menu';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/explore" element={<Explore />} />
-          <Route path="/review" element={<Feedback />} />
+          <Route path="/review" element={<Review />} />
+          <Route path="/menu/:shopId" element={<Menu />} />
         </Routes>
       </div>
 
